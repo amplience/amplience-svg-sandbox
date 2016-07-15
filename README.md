@@ -15,7 +15,7 @@ The sandbox requires an authentication token so it can access the preview API.  
 * `cd ~/` or for windows `cd %userprofile%`
 * `mkdir .amplience`
 * `cd .amplience`
-* `cp /path/to/credentials.json.example credential.json` or for windows `copy c:\path\to\credentials.json.example credential.json`
+* `cp /path/to/credentials.json.example credentials.json` or for windows `copy c:\path\to\credentials.json.example credentials.json`
 
 Edit `credentials.json` replacing the placeholders with valid auth details.
 
@@ -70,6 +70,8 @@ var previewOpts = {
   }
 };
 ```
+
+*Note: companyName is your Amplience company name*
 
 ## Query String Parameters
 
