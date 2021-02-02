@@ -54,7 +54,7 @@ The preview task can be configured using the tasks options object e.g.
 var previewOpts = {
   di: {
     protocol: "https",
-    host: "i1.adis.ws",
+    host: "classic.cdn.media.amplience.net",
     companyName: '<company_name_here>',
     namespace: 'pv'
   },
@@ -65,7 +65,7 @@ var previewOpts = {
   },
   auth: {
     protocol: "https",
-    host: "auth.adis.ws",
+    host: "auth.amplience.net",
     pathname: "/oauth/token"
   }
 };
