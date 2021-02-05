@@ -54,7 +54,7 @@ The preview task can be configured using the tasks options object e.g.
 var previewOpts = {
   di: {
     protocol: "https",
-    host: "classic.cdn.media.amplience.net",
+    host: "cdn.media.amplience.net",
     companyName: '<company_name_here>',
     namespace: 'pv'
   },
